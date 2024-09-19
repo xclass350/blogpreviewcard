@@ -1,0 +1,83 @@
+body{
+  padding: 10px;
+  align-items: center;
+
+  
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+.figtree-<uniquifier> {
+  font-family: "Figtree", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+
+
+
+#container{
+  width: 300px;
+  margin: 10px auto;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-style: outset;
+  padding: 10px 10px 0px 10px;
+  border-radius: 20px;
+}
+
+.article-image{
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.publish-date{
+  font-size: small;
+  margin: 5px;
+  color: hsl(0, 0%, 42%);
+}
+
+.button{
+  background-color: hsl(47, 88%, 63%);
+  margin: 5px 0px;
+  border: 0px;
+  border-radius: 5px;
+  height: 20px;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.topic{
+  margin: 10px 0px;
+}
+
+.topic:hover{
+  color: hsl(47, 88%, 63%);
+}
+
+.topic:active{
+  color: hsl(47, 92%, 15%);
+}
+
+.topic:visited{
+  color: hsl(283, 75%, 54%);
+}
+
+.language{
+  margin: 0px;
+  color: hsl(0, 0%, 42%);
+}
+
+.author{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.avatar{
+  width: 20px;
+  height: 20px;
+}
